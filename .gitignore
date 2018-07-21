@@ -1,0 +1,55 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+systemtest/dev_env_system_tests
+unittest/dev_env_unit_tests
+
+
+# Environment Related
+*.DS_Store
+*.idea/
+
+# Makefile Related
+build/*
+bin/*
+cmake-build-debug/*
+*/CMakeFiles/*
+CMakeFiles/*
+Makefile
+CMakeCache.txt
+*.cbp
+*/*.cmake
+*/Makefile
+*/CMakeCache.txt
+
+# Unit Tests
+!unit_test/test_dylib/*
